@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="110dp"
+        android:text="Morpion"
+        android:id="@+id/TexteNom"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.13"
+        android:textAlignment="center"
+        android:textColor="#787878"
+        android:textStyle="bold"
+        android:background="#2b2b2b"
+        android:gravity="center_vertical"
+        android:height="40dp"
+        android:textSize="70dp" />
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Solo"
+        android:id="@+id/LancementSolo"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.22"
+        android:layout_marginTop="270dp"
+        android:background="#d7d2c5"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="25dp"
+        android:clickable="true"
+        android:textStyle="bold|italic"/>
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="90dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="MultiJoueur"
+        android:id="@+id/LancementMulti"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.22"
+        android:layout_marginTop="365dp"
+        android:background="#d7d2c5"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="18dp"
+        android:textStyle="bold|italic"
+        android:clickable="true"/>
+
+</FrameLayout>

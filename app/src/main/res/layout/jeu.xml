@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:weightSum="1">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="110dp"
+        android:text="Morpion"
+        android:id="@+id/TexteNom"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.13"
+        android:textAlignment="center"
+        android:textColor="#787878"
+        android:textStyle="bold"
+        android:background="#2b2b2b"
+        android:gravity="center_vertical"
+        android:height="80dp"
+        android:textSize="70dp" />
+
+    <FrameLayout
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="87dp"
+            android:layout_height="87dp"
+            android:text=""
+            android:id="@+id/button"
+            android:layout_gravity="left|top"/>
+
+        <Button
+            android:layout_width="87dp"
+            android:layout_height="87dp"
+            android:text=""
+            android:id="@+id/button2"
+            android:layout_gravity="center_horizontal|top"/>
+
+        <Button
+            android:layout_width="87dp"
+            android:layout_height="87dp"
+            android:text=""
+            android:id="@+id/button3"
+            android:layout_gravity="right|top"/>
+
+        <Button
+            android:layout_width="87dp"
+            android:layout_height="87dp"
+            android:text=""
+            android:id="@+id/button4"
+            android:layout_gravity="left|center_vertical"/>
+
+        <Button
+            android:layout_width="87dp"
+            android:layout_height="87dp"
+            android:text=""
+            android:id="@+id/button5"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_width="87dp"
+            android:layout_height="87dp"
+            android:text=""
+            android:id="@+id/button6"
+            android:layout_gravity="right|center_vertical"/>
+
+        <Button
+            android:layout_width="87dp"
+            android:layout_height="87dp"
+            android:text=""
+            android:id="@+id/button7"
+            android:layout_gravity="left|bottom"/>
+
+        <Button
+            android:layout_width="87dp"
+            android:layout_height="87dp"
+            android:text=""
+            android:id="@+id/button8"
+            android:layout_gravity="center_horizontal|bottom"/>
+
+        <Button
+            android:layout_width="87dp"
+            android:layout_height="87dp"
+            android:text=""
+            android:id="@+id/button9"
+            android:layout_gravity="right|bottom"/>
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Joueur 1"
+        android:id="@+id/textJoueur"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="130dp"/>
+
+</FrameLayout>
